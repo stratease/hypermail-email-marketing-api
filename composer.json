@@ -1,0 +1,15 @@
+{
+    "name": "Hypermail Email Marketing API",
+    "require": {
+        "php": ">=5.4"
+    },
+    "require-dev":{
+
+    },
+    "repositories":[
+
+    ],
+    "autoload":{
+        "psr-4":{"stratease\\":"src/"}
+    }
+}
