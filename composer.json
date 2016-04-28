@@ -1,5 +1,5 @@
 {
-    "name": "Hypermail Email Marketing API",
+    "name": "stratease/hypermail-email-marketing-api",
     "require": {
         "php": ">=5.4"
     },
