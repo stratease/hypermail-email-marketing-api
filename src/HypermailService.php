@@ -52,6 +52,6 @@ class HypermailService
      * @return mixed
      */
     public function getUnsubscribeList($start, $limit) {
-        return simplexml_load_string($this->request(['action' => 'getunsubscribelist','area'=>'email','start' => $start, 'limit' => $limit]));;
+        return simplexml_load_string($this->request(['action' => 'getunsubscribelist','area'=>'email','start' => $start, 'limit' => $limit]));
     }
 }
